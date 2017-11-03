@@ -44,25 +44,25 @@ public class ColorPicker extends JFrame{
         
         //add exit key combination
         addKeyListener(new KeyListener() {
-			
-			@Override
-			public void keyTyped(KeyEvent e) {
-					
-			}
-			
-			@Override
-			public void keyReleased(KeyEvent e) {
-				
-			}
-			
-			@Override
-			public void keyPressed(KeyEvent e) {
-				// TODO Auto-generated method stub
-				if (e.isControlDown() && e.getKeyCode() == KeyEvent.VK_F4) {
-					System.exit(0);
-				}
-			}
-		});
+            
+            @Override
+            public void keyTyped(KeyEvent e) {
+                    
+            }
+            
+            @Override
+            public void keyReleased(KeyEvent e) {
+                
+            }
+            
+            @Override
+            public void keyPressed(KeyEvent e) {
+                // TODO Auto-generated method stub
+                if (e.isControlDown() && e.getKeyCode() == KeyEvent.VK_F4) {
+                    System.exit(0);
+                }
+            }
+        });
 //        try {
 //            UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
 //        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException
